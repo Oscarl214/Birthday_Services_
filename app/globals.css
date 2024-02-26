@@ -17,9 +17,7 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  padding: 1rem;
-  background-color: black;
+  background-color: white;
 }
 
 h1 {
