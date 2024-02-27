@@ -23,3 +23,23 @@ body {
 h1 {
   font: 4rem;
 }
+
+.hero {
+  display: grid;
+  width: 100%;
+  place-items: center;
+  background-size: contain; /* Set background size to cover the width and maintain aspect ratio */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero {
+    display: grid;
+    width: 100%;
+    background-size: 70rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    place-items: center;
+  }
+}
