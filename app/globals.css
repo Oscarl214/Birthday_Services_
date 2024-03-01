@@ -20,15 +20,11 @@ body {
   background-color: white;
 }
 
-h1 {
-  font: 4rem;
-}
-
-.hero {
+/* .hero {
   display: grid;
   width: 100%;
   place-items: center;
-  background-size: contain; /* Set background size to cover the width and maintain aspect ratio */
+  background-size: contain; 
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -42,4 +38,4 @@ h1 {
     background-position: center;
     place-items: center;
   }
-}
+} */
