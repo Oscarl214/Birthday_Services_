@@ -20,22 +20,27 @@ body {
   background-color: white;
 }
 
-/* .hero {
+.hero {
   display: grid;
   width: 100%;
+  height: 60%;
   place-items: center;
-  background-size: contain; 
+  background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
 }
 
-@media only screen and (max-width: 600px) {
-  .hero {
-    display: grid;
-    width: 100%;
-    background-size: 70rem;
-    background-repeat: no-repeat;
-    background-position: center;
-    place-items: center;
-  }
-} */
+.min-h-screen-main {
+  min-height: 75vh;
+}
+
+.second-main {
+  min-height: 50vh;
+}
+
+.hook-space {
+  padding-top: 5rem;
+}
+
+.hook-button {
+  width: 10rem;
+}
