@@ -15,7 +15,7 @@ const ContactUsMain = () => {
           birthday memorable!
         </p>
         <button className="border-red-700 border-2 text-white border-solid  p-3 lg:text-md text-sm font-semibold text-black hover:bg-red-400 rounded-full hook-button">
-          CONTACT US
+          ABOUT US
         </button>
       </div>
       <Image
