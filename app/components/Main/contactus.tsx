@@ -1,16 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
-const AboutUsHero = () => {
+const ContactUsMain = () => {
   return (
-    <div className="flex flex-col md:flex-row text-black m-5">
-      <Image
-        src="https://partyservices.s3.us-east-2.amazonaws.com/BounceHouse.webp"
-        alt="Logo"
-        width="650"
-        height="700"
-        className="cursor-pointer about-us image lg:ml-10 "
-        priority
-      />
+    <div className="flex flex-col md:flex-row text-white m-5 bg-black bg-cover">
       <div className="flex flex-col justify-center items-center text-center md:w-1/2 mt-7">
         <p className="about-us-text lg:text-lg text-sm font-semibold lg:mb-8 text-gray-400">
           SERVING AUSTIN AND BEYOND
@@ -22,12 +14,20 @@ const AboutUsHero = () => {
           Party Coming Up? Contact Us today by filling out this form to make a
           birthday memorable!
         </p>
-        <button className="border-red-700 border-2 border-solid  p-3 lg:text-md text-sm font-semibold text-black hover:bg-red-400 rounded-full hook-button">
-          OFFERINGS
+        <button className="border-red-700 border-2 text-white border-solid  p-3 lg:text-md text-sm font-semibold text-black hover:bg-red-400 rounded-full hook-button">
+          CONTACT US
         </button>
       </div>
+      <Image
+        src="https://partyservices.s3.us-east-2.amazonaws.com/BounceHouse.webp"
+        alt="Logo"
+        width="650"
+        height="700"
+        className="cursor-pointer about-usimage lg:ml-10 m-5"
+        priority
+      />
     </div>
   );
 };
 
-export default AboutUsHero;
+export default ContactUsMain;
