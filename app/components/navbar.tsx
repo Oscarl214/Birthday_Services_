@@ -66,7 +66,7 @@ const Navbar = () => {
             <AiOutlineClose size={25} />
           </div>
         </div>
-        <ul className="text-2xl mt-[60%]">
+        <ul className="text-2xl mt-[70%]">
           <Link href="./">
             <li
               className="py-4 cursor-pointer hover:border-b hover:border-rose-500  "
@@ -109,12 +109,7 @@ const Navbar = () => {
           </Link>
         </ul>
         <div className="flex flex-row justify-around pt-10 items-center">
-          <a
-            target="_blank"
-            href="https://www.instagram.com/partyknightrentals512/?igsh=N3ViOXkwYmYxc3J0"
-          >
-            <AiOutlineInstagram size={40} className="cursor-pointer" />
-          </a>
+          <AiOutlineInstagram size={40} className="cursor-pointer" />
           <Link href="/">
             <Image
               src={Logo}

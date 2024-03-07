@@ -5,6 +5,7 @@ import Hook from '../components/Main/hook';
 import AboutUsHero from '../components/Main/aboutus';
 import TitleImage from '../components/Main/image';
 import ContactUsMain from '../components/Main/contactus';
+
 const Main = () => {
   return (
     <div className=" pt-9">
