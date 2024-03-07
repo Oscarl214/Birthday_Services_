@@ -1,10 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
-import MainHero from '../components/Main/hero';
-import Hook from '../components/Main/hook';
-import AboutUsHero from '../components/Main/aboutus';
-import TitleImage from '../components/Main/image';
-import ContactUsMain from '../components/Main/contactus';
+import MainHero from '../components/main/hero';
+import Hook from '../components/main/hook';
+import AboutUsHero from '../components/main/aboutus';
+import TitleImage from '../components/main/image';
+import ContactUsMain from '../components/main/contactus';
 
 const Main = () => {
   return (

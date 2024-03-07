@@ -1,8 +1,7 @@
 import './globals.css';
 import type { Metadata } from 'next';
 import { Inter, Rubik } from 'next/font/google';
-import Navbar from './components/Navbar';
-
+import Navbar from './components/navbar';
 
 import Footer from './components/Footer';
 const inter = Inter({ subsets: ['latin'] });
@@ -23,7 +22,7 @@ export default function RootLayout({
       <body className={rubik.className}>
         <Navbar />
         {children}
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );
