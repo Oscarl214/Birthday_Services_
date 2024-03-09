@@ -6,10 +6,10 @@ const AboutUs = () => {
     <div className="flex flex-col md:flex-row text-black m-5">
       <Image
         src="https://partyservices.s3.us-east-2.amazonaws.com/BounceHouse.webp"
-        alt="Logo"
+        alt="Bounce House"
         width="650"
         height="700"
-        className="cursor-pointer about-usimage lg:ml-10 "
+        className="cursor-pointer  lg:ml-10 "
         priority
       />
       <div className="flex flex-col justify-center items-center text-center md:w-1/2 mt-7">

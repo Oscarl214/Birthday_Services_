@@ -1,32 +1,32 @@
 import React from 'react';
-import Link from 'next/link';
 
 import Image from 'next/image';
 import Logo from '../../public/Logo.webp';
-
+import Link from 'next/link';
 import { AiOutlineInstagram } from 'react-icons/ai';
 
 const Footer = () => {
   return (
-    <div className="flex flex-col justify-center items-center m-5">
+    <div className="flex flex-col justify-center items-center ">
       <Image
         src={Logo}
         alt="Logo"
         width="100"
         height="100"
-        className="cursor-pointer about-usimage lg:ml-10 "
+        className="cursor-pointer text-center "
       />
-      <div className="flex justify-center ">
-        <ul>
-          <li className="text-center text-4xl">
-            <AiOutlineInstagram className=" text-center text-red-500" />
-          </li>
-          <li>
-            <a href="mailto:info@partyknightrentals.com">
-              info@partyknightrentals.com
-            </a>
-          </li>
-        </ul>
+      <ul className="m-5 flex flex-col justify-center items-center">
+        <a href="mailto:info@partyknightrentals.com">
+          <li className="m-1">info@partyknightrentals.com</li>
+        </a>
+      </ul>
+      <div className="flex justify-center">
+        <Link
+          href="https://www.instagram.com/partyknightrentals512/?igsh=N3ViOXkwYmYxc3J0"
+          target="_blank"
+        >
+          <AiOutlineInstagram size={40} className=" text-red-700" />
+        </Link>
       </div>
     </div>
   );

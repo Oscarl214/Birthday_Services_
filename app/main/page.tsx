@@ -5,10 +5,11 @@ import Hook from '../components/main/hook';
 import AboutUsHero from '../components/main/aboutus';
 import TitleImage from '../components/main/image';
 import ContactUsMain from '../components/main/contactus';
+import { MotionDiv } from '../components/main/motion';
 
 const Main = () => {
   return (
-    <div className=" pt-9">
+    <div>
       <MainHero />
       <Hook />
       <AboutUsHero />

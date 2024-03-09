@@ -63,10 +63,10 @@ const Navbar = () => {
       >
         <div className="flex w-full items-center justify-end">
           <div onClick={handleNav} className="cursor-pointer">
-            <AiOutlineClose size={25} />
+            <AiOutlineClose size={30} className=" hover:text-red-700" />
           </div>
         </div>
-        <ul className="text-2xl mt-[70%]">
+        <ul className="text-2xl mt-[40%] text-black">
           <Link href="./">
             <li
               className="py-4 cursor-pointer hover:border-b hover:border-rose-500  "
@@ -108,15 +108,17 @@ const Navbar = () => {
             </li>
           </Link>
         </ul>
-        <div className="flex flex-row justify-around pt-10 items-center">
-          <AiOutlineInstagram size={40} className="cursor-pointer" />
+        <div className="flex flex-col justify-around pt-10 items-center">
+          <Link href="https://www.instagram.com/partyknightrentals512/?igsh=N3ViOXkwYmYxc3J0">
+            <AiOutlineInstagram size={40} className=" text-red-700" />
+          </Link>
           <Link href="/">
             <Image
               src={Logo}
               alt="Logo"
               width="65"
               height="75"
-              className="cursor-pointer pt-6 items-center object-center"
+              className="cursor-pointer pt-6 object-center"
               priority
             />
           </Link>
