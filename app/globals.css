@@ -30,7 +30,7 @@ body {
 }
 
 .min-h-screen-main {
-  min-height: 75vh;
+  min-height: 70vh;
 }
 
 .second-main {
@@ -43,4 +43,10 @@ body {
 
 .hook-button {
   width: 10rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .min-h-screen-main {
+    min-height: 95vh;
+  }
 }
