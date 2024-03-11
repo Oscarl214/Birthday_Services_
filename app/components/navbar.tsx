@@ -33,12 +33,12 @@ const Navbar = () => {
                 Offerings
               </li>
             </Link>
-            <Link href="./faq">
+            <Link href="./about">
               <li className="ml-10 uppercase hover:border-b hover:border-rose-500 border-red text-xl">
-                FAQ
+                About
               </li>
             </Link>
-            <Link href="./ourpolicy">
+            <Link href="./policy">
               <li className="ml-10 uppercase hover:border-b hover:border-rose-500 text-xl">
                 Our Policy
               </li>
@@ -83,15 +83,15 @@ const Navbar = () => {
               Offerings
             </li>
           </Link>
-          <Link href="./faq">
+          <Link href="./about">
             <li
               className="py-4 cursor-pointer hover:border-b hover:border-rose-500  "
               onClick={() => setMenuOpen(false)}
             >
-              FAQ
+              About
             </li>
           </Link>
-          <Link href="./ourpolicy">
+          <Link href="./policy">
             <li
               className="py-4 cursor-pointer hover:border-b hover:border-rose-500  "
               onClick={() => setMenuOpen(false)}

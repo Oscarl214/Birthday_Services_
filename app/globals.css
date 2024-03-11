@@ -33,6 +33,10 @@ body {
   min-height: 70vh;
 }
 
+.min-h-screen-policy {
+  min-height: 50vh;
+}
+
 .second-main {
   min-height: 50vh;
 }
@@ -48,5 +52,11 @@ body {
 @media only screen and (max-width: 600px) {
   .min-h-screen-main {
     min-height: 95vh;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .min-h-screen-policy {
+    min-height: 40vh;
   }
 }

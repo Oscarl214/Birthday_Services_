@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const Hook = () => {
@@ -26,9 +27,11 @@ const Hook = () => {
         </li>
       </ul>
       <div className="flex items-center justify-center mt-9">
-        <button className="border-red-700 border-2 border-solid  p-3 lg:text-md text-sm font-semibold text-black hover:bg-red-400 rounded-full hook-button">
-          HIRE US
-        </button>
+        <Link href={'/contact'}>
+          <button className="border-red-700 border-2 border-solid  p-3 lg:text-md text-sm font-semibold text-black hover:bg-red-400 rounded-full hook-button">
+            HIRE US
+          </button>
+        </Link>
       </div>
     </div>
   );

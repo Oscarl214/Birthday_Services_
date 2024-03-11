@@ -2,9 +2,9 @@ import React from 'react';
 import Image from 'next/image';
 import MainHero from '../components/main/hero';
 import Hook from '../components/main/hook';
-import AboutUsHero from '../components/main/aboutus';
+import AboutUsHero from '../components/main/contactus';
 import TitleImage from '../components/main/image';
-import ContactUsMain from '../components/main/contactus';
+import AboutUsMain from '../components/main/aboutusmain';
 import { MotionDiv } from '../components/main/motion';
 
 const Main = () => {
@@ -15,7 +15,7 @@ const Main = () => {
       <AboutUsHero />
       <TitleImage />
       <div className="bg-black">
-        <ContactUsMain />
+        <AboutUsMain />
       </div>
     </div>
   );

@@ -1,33 +1,37 @@
 import React from 'react';
 import Image from 'next/image';
-const ContactUsMain = () => {
+
+import Link from 'next/link';
+const ContactUs = () => {
   return (
-    <div className="flex flex-col md:flex-row text-white m-5 bg-black bg-cover">
-      <div className="flex flex-col justify-center items-center text-center md:w-1/2 mt-7">
-        <p className="about-us-text lg:text-lg text-sm font-semibold lg:mb-8 text-red-400 ">
-          BEST IN THE INDUSTRY
-        </p>
-        <h3 className="about-us-text lg:text-5xl text-3xl  font-bold">
-          GET TO KNOW US
-        </h3>
-        <p className="text-lg m-5 font-semibold text-red-400">
-          Party Knight Rentals goes above and beyond to make sure that your
-          event is unforgettable
-        </p>
-        <button className="border-red-700 border-2 text-white border-solid  p-3 lg:text-md text-sm font-semibold text-black hover:bg-red-400 rounded-full hook-button">
-          ABOUT US
-        </button>
-      </div>
+    <div className="flex flex-col md:flex-row text-black m-5">
       <Image
-        src="https://partyservices.s3.us-east-2.amazonaws.com/Kid+Jumping.webp"
-        alt="Kid Jumping"
+        src="https://partyservices.s3.us-east-2.amazonaws.com/BounceHouse.webp"
+        alt="Bounce House"
         width="650"
         height="700"
-        className="cursor-pointer p-4 lg:ml-10 "
+        className="cursor-pointer  lg:ml-10 "
         priority
       />
+      <div className="flex flex-col justify-center items-center text-center md:w-1/2 mt-7">
+        <p className="about-us-text lg:text-lg text-sm font-semibold lg:mb-8 text-gray-400">
+          SERVING AUSTIN AND BEYOND
+        </p>
+        <h3 className="about-us-text lg:text-5xl text-3xl  font-bold">
+          INFLATABLE INSTALLS
+        </h3>
+        <p className="text-lg m-5 font-semibold text-gray-400">
+          Party Coming Up? Contact Us today by filling out this form to make a
+          birthday memorable!
+        </p>
+        <Link href={'/offerings'}>
+          <button className="border-red-700 border-2 border-solid  p-3 lg:text-md text-sm font-semibold text-black hover:bg-red-400 rounded-full hook-button">
+            OFFERINGS
+          </button>
+        </Link>
+      </div>
     </div>
   );
 };
 
-export default ContactUsMain;
+export default ContactUs;
