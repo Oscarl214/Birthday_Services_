@@ -9,15 +9,15 @@ const AboutUsMain = () => {
           BEST IN THE INDUSTRY
         </p>
         <h3 className="about-us-text lg:text-5xl text-3xl  font-bold">
-          GET TO KNOW US
+          CHECK OUT OUR PRODUCTS
         </h3>
         <p className="text-lg m-5 font-semibold text-red-400">
           Party Knight Rentals goes above and beyond to make sure that your
           event is unforgettable
         </p>
-        <Link href={'/about'}>
+        <Link href={'/offerings'}>
           <button className="border-red-700 border-2 text-white border-solid  p-3 lg:text-md text-sm font-semibold text-black hover:bg-red-400 rounded-full hook-button">
-            ABOUT US
+            OFFERINGS
           </button>
         </Link>
       </div>

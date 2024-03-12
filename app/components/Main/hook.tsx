@@ -27,9 +27,9 @@ const Hook = () => {
         </li>
       </ul>
       <div className="flex items-center justify-center mt-9">
-        <Link href={'/contact'}>
+        <Link href={'/about'}>
           <button className="border-red-700 border-2 border-solid  p-3 lg:text-md text-sm font-semibold text-black hover:bg-red-400 rounded-full hook-button">
-            HIRE US
+            ABOUT US
           </button>
         </Link>
       </div>

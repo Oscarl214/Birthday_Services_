@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "ServiceTitle": "Reservations",
+    "Rules": {
+      "ruleone": "Reservations will be on a first come, first serve basis. Dates will not be held without an initial deposit.",
+      "ruletwo": "Initial deposit is $100. The remaining balance will be due the day of the delivery BEFORE any items are unloaded.",
+      "rulethree": "A minimum of $150 worth of rentals is needed to reserve a date, with a deposit of $100.",
+      "rulefour": " Delivery, set up, and pick-up fees are included in price shown on the website! Taxes will be applicable. ",
+      "rulefive": "The customer must sign the rental agreement and liability release on paper or electronically before the delivery is complete.",
+      "rulesix": "Payments will be accepted via Zelle and Cash ONLY."
+    }
+  },
+  {
+    "id": 2,
+    "ServiceTitle": "Rental Period",
+    "Rules": {
+      "ruleone": "The rental period is 8 hours. Equipment may be rented for less time but this will not decrease the price. The price is set and covers up to 8 hours; additional hours may be purchased. ​​",
+      "ruletwo": "All items will be dropped off before 1pm and picked up by 9pm, according to your rental period of 8 hours, unless prior arrangements were agreed upon between the customer and PKR. ",
+      "rulethree": "Overnight rentals will be available for an additional cost. ",
+      "rulefour": " ",
+      "rulefive": "",
+      "rulesix": ""
+    }
+  },
+  {
+    "id": 3,
+    "ServiceTitle": "Damages ",
+    "Rules": {
+      "ruleone": "The customer assumes full responsibility for taking care of any items that are rented out. If any item is lost, damaged, or stolen, the customer will be liable to pay full cost of a brand-new replacement, up to $4,000.",
+      "ruletwo": "",
+      "rulethree": " ",
+      "rulefour": " ",
+      "rulefive": "",
+      "rulesix": ""
+    }
+  },
+  {
+    "id": 4,
+    "ServiceTitle": "Injuries",
+    "Rules": {
+      "ruleone": "Party Knight Rentals LLC will NOT be liable for any injuries resulting from a rental to any party involved. The customer must sign a liability release indicating they understand and agree that their Homeowner’s Insurance (or themselves) that will cover any fees or medical costs in the event of a claim.",
+      "ruletwo": "",
+      "rulethree": " ",
+      "rulefour": " ",
+      "rulefive": "",
+      "rulesix": ""
+    }
+  }
+]

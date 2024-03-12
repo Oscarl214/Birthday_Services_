@@ -8,13 +8,15 @@ import { AiOutlineInstagram } from 'react-icons/ai';
 const Footer = () => {
   return (
     <div className="flex flex-col justify-center items-center ">
-      <Image
-        src={Logo}
-        alt="Logo"
-        width="100"
-        height="100"
-        className="cursor-pointer text-center "
-      />
+      <Link href={'/'}>
+        <Image
+          src={Logo}
+          alt="Logo"
+          width="100"
+          height="100"
+          className="cursor-pointer text-center "
+        />
+      </Link>
       <ul className="m-5 flex flex-col justify-center items-center">
         <a href="mailto:info@partyknightrentals.com">
           <li className="m-1">info@partyknightrentals.com</li>

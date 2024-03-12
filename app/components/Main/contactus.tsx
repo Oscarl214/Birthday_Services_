@@ -24,9 +24,9 @@ const ContactUs = () => {
           Party Coming Up? Contact Us today by filling out this form to make a
           birthday memorable!
         </p>
-        <Link href={'/offerings'}>
+        <Link href={'/contact'}>
           <button className="border-red-700 border-2 border-solid  p-3 lg:text-md text-sm font-semibold text-black hover:bg-red-400 rounded-full hook-button">
-            OFFERINGS
+            CONTACT US
           </button>
         </Link>
       </div>

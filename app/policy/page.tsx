@@ -1,7 +1,15 @@
 import React from 'react';
-
-const Faq = () => {
-  return <div>Faq</div>;
+import PolicySection from '../components/policy/policysection';
+import RulesSection from '../components/policy/rulessection';
+const Policy = () => {
+  return (
+    <div>
+      <PolicySection />
+      <div className=" bg-black">
+        <RulesSection />
+      </div>
+    </div>
+  );
 };
 
-export default Faq;
+export default Policy;
