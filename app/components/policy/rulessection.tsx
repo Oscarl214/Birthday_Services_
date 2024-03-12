@@ -5,14 +5,14 @@ import PolicyData from '../../policyData.json';
 
 const RulesSection = () => {
   return (
-    <div className="w-full flex justify-center items-center flex-wrap m-10">
+    <div className=" flex p-5 justify-center items-center flex-wrap  lg:m-10 ">
       {PolicyData.map((policy) => (
         <div
-          className=" w-96 card-policy bg-white text-primary-content font-rubik m-4"
+          className=" card-policy bg-white text-primary-content font-rubik m-4"
           key={policy.id}
         >
-          <div className="card-body">
-            <h2 className=" text-center font-bold text-3xl uppercase text-red-700">
+          <div className="card-body-policy">
+            <h2 className=" text-center font-bold text-3xl uppercase text-red-700 underline">
               {policy.ServiceTitle}
             </h2>
             <ul className="space-y-4">

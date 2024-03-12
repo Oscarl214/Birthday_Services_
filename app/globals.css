@@ -59,15 +59,14 @@ body {
   width: 500px;
 }
 
-.card-body {
+.card-body-policy {
   display: flex;
-  display: flex;
-  flex: 1 1 auto;
+
   justify-items: center;
 
   flex-direction: column;
   padding: var(--padding-card, 2rem /* 32px */);
-  gap: 4rem /* 8px */;
+  gap: 2rem /* 8px */;
 }
 
 .container {
@@ -76,12 +75,16 @@ body {
   align-items: center;
   flex-wrap: wrap;
   margin: 10px;
-  overflow-x: hidden; /* Add this line */
+  /* Add this line */
 }
 
 @media only screen and (max-width: 600px) {
   .min-h-screen-main {
     min-height: 95vh;
+  }
+  .card-policy {
+    width: auto;
+    height: fit-content;
   }
 }
 
