@@ -5,12 +5,12 @@ import Navbar from './components/navbar';
 // import { MotionDiv } from './components/main/motion';
 import Footer from './components/footer';
 
-const rubik = Rubik({ subsets: ['latin'] });
+// const rubik = Rubik({ subsets: ['latin'] });
 
-const variants = {
-  hidden: { opacity: 0 },
-  visible: { opacity: 1 },
-};
+// const variants = {
+//   hidden: { opacity: 0 },
+//   visible: { opacity: 1 },
+// };
 
 export const metadata: Metadata = {
   title: 'Party Knight Rentals',
@@ -24,7 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={rubik.className}>
+      <body>
         {/* <MotionDiv
           variants={variants}
           initial="hidden"
