@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import { Inter, Rubik } from 'next/font/google';
 import Navbar from './components/navbar';
 // import { MotionDiv } from './components/main/motion';
-import Footer from './components/footer';
+import Footer from './components/Footer';
 
 // const rubik = Rubik({ subsets: ['latin'] });
 
