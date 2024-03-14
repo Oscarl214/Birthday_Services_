@@ -2,7 +2,7 @@ import './globals.css';
 import type { Metadata } from 'next';
 import { Inter, Rubik } from 'next/font/google';
 import Navbar from './components/navbar';
-import { MotionDiv } from './components/main/motion';
+// import { MotionDiv } from './components/main/motion';
 import Footer from './components/footer';
 
 const rubik = Rubik({ subsets: ['latin'] });
@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={rubik.className}>
-        <MotionDiv
+        {/* <MotionDiv
           variants={variants}
           initial="hidden"
           animate="visible"
@@ -35,15 +35,15 @@ export default function RootLayout({
             duration: 1,
           }}
           viewport={{ amount: 0.5 }}
-        >
-          <Navbar />
+        > */}
+        <Navbar />
 
-          {children}
+        {children}
 
-          <div className="mt-[5%]">
-            <Footer />
-          </div>
-        </MotionDiv>
+        <div className="mt-[5%]">
+          <Footer />
+        </div>
+        {/* </MotionDiv> */}
       </body>
     </html>
   );
