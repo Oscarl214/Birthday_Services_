@@ -7,7 +7,7 @@ import { AiOutlineInstagram } from 'react-icons/ai';
 
 const Footer = () => {
   return (
-    <div className="flex flex-col justify-center items-center ">
+    <footer className="flex flex-col justify-center items-center ">
       <Link href={'/'}>
         <Image
           src={Logo}
@@ -30,7 +30,7 @@ const Footer = () => {
           <AiOutlineInstagram size={40} className=" text-red-700" />
         </Link>
       </div>
-    </div>
+    </footer>
   );
 };
 
