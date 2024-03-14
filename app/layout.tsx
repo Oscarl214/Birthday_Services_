@@ -40,9 +40,9 @@ export default function RootLayout({
 
         {children}
 
-        <div className="mt-[5%]">
-          <Footer />
-        </div>
+        {/* <div className="mt-[5%]"> */}
+        <Footer />
+        {/* </div> */}
         {/* </MotionDiv> */}
       </body>
     </html>
