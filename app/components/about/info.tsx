@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
 const Info = () => {
   return (
     <div className="flex flex-col md:flex-row justify-around m-5">
@@ -12,7 +11,7 @@ const Info = () => {
           Welcome to Party Knight Rentals, your trusted source for all your
           party rental needs in Austin, Texas! We are a dedicated team of party
           enthusiasts committed to making your events a bouncing success.
-          Whether you're hosting a birthday party, a family reunion, or
+          Whether youre hosting a birthday party, a family reunion, or
           celebrating your kids achievements, our inventory of bounce houses,
           tables, and chairs is sure to impress! Safety is our top priority,
           which is why all our bounce houses are manufactured to the highest
