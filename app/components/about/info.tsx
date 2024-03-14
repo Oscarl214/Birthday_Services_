@@ -15,16 +15,21 @@ const Info = () => {
           celebrating your kids achievements, our inventory of bounce houses,
           tables, and chairs is sure to impress! Safety is our top priority,
           which is why all our bounce houses are manufactured to the highest
-          industry standards and regularly inspected for quality assurance. Our
-          tables and chairs are sturdy, comfortable, and perfect for
+          industry standards and regularly inspected for quality assurance.
+        </p>
+        <p className="text-xl text-black m-4">
+          Our tables and chairs are sturdy, comfortable, and perfect for
           accommodating your guests. With Party Knight Rentals, you can count on
           reliable and punctual delivery, ensuring your rentals are set up and
           ready to go when your party starts. We take pride in providing
           exceptional customer service, working closely with you to understand
           your event needs and offering personalized recommendations to make
           your vision a reality. Let us be your party knights in shining armor,
-          transforming ordinary gatherings into extraordinary memories. Contact
-          Party Knight Rentals today and let the bouncing adventures begin!
+          transforming ordinary gatherings into extraordinary memories.
+        </p>
+        <p className="text-xl text-black m-4">
+          Contact Party Knight Rentals today and let the bouncing adventures
+          begin!
         </p>
       </div>
       <Image

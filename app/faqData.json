@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "Question": "Can I book online?",
+    "Answer": "At this time, the only way to book is via email at info@partyknightrentals.com, or by filling out the form located under the Offerings tab. We are working on adding the book online feature soon!",
+    "Image": ""
+  },
+  {
+    "id": 2,
+    "Question": "Which payment methods do you accept?",
+    "Answer": "Due to IRS regulations, currently we only accept Cash and Zelle. ",
+    "Image": "https://partyservices.s3.us-east-2.amazonaws.com/faq2.webp"
+  },
+  {
+    "id": 3,
+    "Question": "How long is the rental period?",
+    "Answer": "The rental period is 8 hours long. Less hours may not be purchased for a discount. The price is set for up to 8 hours so items may be rented for less than 8 hours but the price will not decrease. Additional hours may be purchased. Cost varies by product. ",
+    "Image": "https://partyservices.s3.us-east-2.amazonaws.com/faq3.webp"
+  },
+  {
+    "id": 4,
+    "Question": "What is your policy for damaged products?",
+    "Answer": "If a product is damaged, the customer who signs the rental contract will be responsible for the total amount of a new replacement unit at the discretion of management. ",
+    "Image": "https://partyservices.s3.us-east-2.amazonaws.com/faq1.webp"
+  }
+]
