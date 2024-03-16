@@ -2,9 +2,9 @@ import mongoose from 'mongoose';
 
 const { Schema } = mongoose;
 
-const postSchema = new Schema(
+const productSchema = new Schema(
   {
-    title: {
+    name: {
       type: String,
       required: true,
     },
@@ -12,8 +12,13 @@ const postSchema = new Schema(
       type: String,
       required: true,
     },
+    price: {
+      type: String,
+      required: true,
+    },
   },
   { timestamps: true }
 );
 
-export default mongoose.models.Post || mongoose.model('Post', postSchema);
+export default mongoose.models.Product ||
+  mongoose.model('Product', productSchema);

@@ -3,7 +3,7 @@ import Form from '../components/contactpage/form';
 const Contact = () => {
   return (
     <div>
-      <div className="pt-[30%] lg:pt-[15%]">
+      <div className="pt-[40%] lg:pt-[15%]">
         {' '}
         <Form />
       </div>
