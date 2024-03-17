@@ -78,6 +78,26 @@ body {
   /* Add this line */
 }
 
+.carousel {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.carousel-item {
+  box-sizing: content-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: none;
+  scroll-snap-align: start;
+}
+
 @media only screen and (max-width: 600px) {
   .min-h-screen-main {
     min-height: 95vh;
