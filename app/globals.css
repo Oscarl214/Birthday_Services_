@@ -78,24 +78,17 @@ body {
   /* Add this line */
 }
 
-.carousel {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
+.product-card {
+  border-style: solid;
+  border-width: 1px;
 }
-
-.carousel-item {
-  box-sizing: content-box;
+.card-body {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex: none;
-  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  flex-direction: column;
+  padding: var(--padding-card, 2rem /* 32px */);
+  gap: 0.5rem /* 8px */;
 }
 
 @media only screen and (max-width: 600px) {
