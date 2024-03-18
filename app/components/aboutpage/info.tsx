@@ -35,9 +35,9 @@ const Info = () => {
       <Image
         src="https://partyservices.s3.us-east-2.amazonaws.com/GreetingsAustin.jpg"
         alt="Bounce House"
-        width="950"
-        height="700"
-        className="cursor-pointer  "
+        width="1000"
+        height="300"
+        className="cursor-pointer  lg:m-10 "
         priority
       />
     </div>

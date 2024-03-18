@@ -1,7 +1,7 @@
 import React from 'react';
-import AboutUsSection from '../components/about/abouussection';
-import Info from '../components/about/info';
-import Button from '../components/about/button';
+import AboutUsSection from '../components/aboutpage/abouussection';
+import Info from '../components/aboutpage/info';
+import Button from '../components/aboutpage/button';
 const OurPolicy = () => {
   return (
     <div>

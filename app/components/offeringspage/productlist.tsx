@@ -1,13 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
+import { getProducts } from '../../helpers/index';
 export default async function ProductList() {
-  const getProducts = async () => {
-    const res = await fetch('http://localhost:3000/api/products');
-
-    return res.json();
-  };
-
   const data = await getProducts();
   console.log(data);
 
@@ -32,7 +28,9 @@ export default async function ProductList() {
               <h2 className="card-title">{product.name}</h2>
               <p>{product.description}</p>
               <div className="card-actions">
-                <button className="btn btn-primary">Buy Now</button>
+                <Link href={`/productbuy?id=${product._id}`}>
+                  <button className="btn btn-primary">Buy Now</button>
+                </Link>
               </div>
             </div>
           </div>

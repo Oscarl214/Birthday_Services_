@@ -1,7 +1,7 @@
 import React from 'react';
-import PolicySection from '../components/policy/policysection';
-import RulesSection from '../components/policy/rulessection';
-import ButtonPolicy from '../components/policy/buttonpolicy';
+import PolicySection from '../components/policypage/policysection';
+import RulesSection from '../components/policypage/rulessection';
+import ButtonPolicy from '../components/policypage/buttonpolicy';
 const Policy = () => {
   return (
     <div>

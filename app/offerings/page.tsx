@@ -1,7 +1,7 @@
 import React from 'react';
-import Options from '../components/offerings/options';
-import HeroOfferings from '../components/offerings/heroofferings';
-import ProductList from '../components/offerings/productlist';
+import Options from '../components/offeringspage/options';
+import HeroOfferings from '../components/offeringspage/heroofferings';
+import ProductList from '../components/offeringspage/productlist';
 const Offerings = () => {
   return (
     <div className="lg:pt-[10%] pt-[30%]">
