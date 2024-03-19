@@ -8,10 +8,10 @@ const AboutUsMain = () => {
         <p className="about-us-text lg:text-lg text-sm font-semibold lg:mb-8 text-red-400 ">
           BEST IN THE INDUSTRY
         </p>
-        <h3 className="about-us-text lg:text-5xl text-3xl  font-bold">
+        <h3 className="about-us-text lg:text-5xl text-3xl  font-bold m-5">
           CHECK OUT OUR PRODUCTS
         </h3>
-        <p className="text-lg m-5 font-semibold text-red-400">
+        <p className="text-lg mb-3 font-semibold text-red-400">
           Party Knight Rentals goes above and beyond to make sure that your
           event is unforgettable
         </p>

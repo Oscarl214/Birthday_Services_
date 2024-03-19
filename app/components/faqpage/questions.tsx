@@ -6,7 +6,7 @@ import Image from 'next/image';
 const Questions = () => {
   return (
     <div className="flex flex-col font-rubik text-black m-5">
-      <p className="text-center m-5">
+      <p className="text-center lg:m-5 m-2">
         We have compiled a list of the most frequently asked questions by our
         customers. If you do not find the answer to your question below, please
         email us at{' '}
@@ -20,10 +20,10 @@ const Questions = () => {
           key={question.id}
           className="text-center flex flex-col justify-center"
         >
-          <h2 className="text-2xl lg:text-5xl text-red-500 underline">
+          <h2 className="text-xl lg:text-5xl text-red-500 underline">
             {question.Question}
           </h2>
-          <p className="text-xl lg:text-2xl p-5">{question.Answer}</p>
+          <p className="text-xl lg:text-2xl lg:p-5 m-2 ">{question.Answer}</p>
 
           {question.Image && (
             <Image

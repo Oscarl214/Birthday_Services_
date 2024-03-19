@@ -13,10 +13,10 @@ const ProductBuy = async ({ searchParams }: Props) => {
   console.log(product);
   return (
     <div className="pt-[40%] lg:pt-[10%] flex lg:flex-nowrap flex-wrap flex-row justify-around">
-      <div className="lg:w-[50%] m-10">
+      <div className="lg:w-[50%] w-[20%] m-10">
         <div className="flex flex-row justify-center  flex-wrap">
           <div className=" bg-white  shadow-xl lg:m-10  border-black  product-card">
-            <figure className="object-fill flex items-center justify-center m-5">
+            <figure className="object-fill flex items-center justify-center ">
               <Image
                 src={product.image}
                 alt="Product"

@@ -8,7 +8,7 @@ const TitleImage = () => {
         alt="Party Rental Knights"
         width="1800"
         height="800"
-        className="cursor-pointer  lg:ml-10 "
+        className="cursor-pointer  lg:ml-10  p-2"
       />
     </div>
   );

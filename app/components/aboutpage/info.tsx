@@ -7,7 +7,7 @@ const Info = () => {
         <h2 className="lg:text-5xl text-black text-3xl font-bold text-start">
           Our Purpose{' '}
         </h2>
-        <p className="text-xl text-black m-4">
+        <p className="text-lg text-black m-4">
           Welcome to Party Knight Rentals, your trusted source for all your
           party rental needs in Austin, Texas! We are a dedicated team of party
           enthusiasts committed to making your events a bouncing success.
