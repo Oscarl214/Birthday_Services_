@@ -16,6 +16,9 @@
   }
 }
 
+html {
+  font-family: Rubik, sans-serif;
+}
 body {
   background-color: white;
 }
@@ -34,6 +37,10 @@ body {
 }
 
 .min-h-screen-policy {
+  min-height: 50vh;
+}
+
+.min-h-screen-faq {
   min-height: 50vh;
 }
 

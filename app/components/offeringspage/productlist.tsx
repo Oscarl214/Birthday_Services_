@@ -9,7 +9,7 @@ export default async function ProductList() {
 
   return (
     <div>
-      <div className="flex flex-row justify-center  flex-wrap">
+      <div className="flex flex-row justify-center  flex-wrap m-10">
         {data.map((product: any) => (
           <div
             className=" lg:w-[25%] bg-white  shadow-xl lg:m-10 justify-center border-black  product-card"
@@ -39,3 +39,6 @@ export default async function ProductList() {
     </div>
   );
 }
+
+// Look into Embla Carousel package to be able to have a carousel for the products!
+// https://www.youtube.com/watch?v=pfZx8y74KE4&ab_channel=HamedBahram

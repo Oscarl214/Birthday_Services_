@@ -19,7 +19,7 @@ const RulesSection = () => {
               {Object.values(policy.Rules).map((rule, index) => (
                 <React.Fragment key={index}>
                   {rule.trim() !== '' && (
-                    <li className="list-disc font-semibold ">{rule}</li>
+                    <li className="list-disc font-rubik ">{rule}</li>
                   )}
                 </React.Fragment>
               ))}
