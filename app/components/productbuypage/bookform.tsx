@@ -11,6 +11,13 @@ const BookForm = () => {
         link provided below. We will contact you soon after to confirm
         availability and details.{' '}
       </p>
+      <iframe
+        src="https://docs.google.com/forms/d/e/1FAIpQLSf19FYJkdVp2IxVoGCy7OtWL5MdZ9yhR2oejR3zlsjRS2GyHg/viewform?embedded=true"
+        width="100%"
+        height="1695"
+      >
+        Loading…
+      </iframe>
     </div>
   );
 };
