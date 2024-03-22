@@ -70,37 +70,40 @@ body {
   display: flex;
 
   justify-items: center;
-
+  align-items: flex-start;
   flex-direction: column;
   padding: var(--padding-card, 2rem /* 32px */);
   gap: 2rem /* 8px */;
 }
-
+/* 
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   margin: 10px;
-  /* Add this line */
-}
+
+} */
 
 .product-card {
   border-style: solid;
   border-width: 1px;
+  border-radius: 1rem;
 }
 .card-body {
   display: flex;
   display: flex;
+  align-items: start;
+  align-items: start;
   flex-direction: column;
   flex-direction: column;
-  padding: var(--padding-card, 2rem /* 32px */);
+  padding: var(--padding-card, 0.5rem /* 32px */);
 }
 
 .carousel-item {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
   width: fit-content;
   scroll-snap-align: start;
 }
