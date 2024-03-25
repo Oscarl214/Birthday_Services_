@@ -1,18 +1,40 @@
-import React from 'react';
+'use client';
+import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
 import { getProducts } from '../../helpers/index';
 
-export default async function ProductList() {
-  const data = await getProducts();
-  console.log(data);
+interface Product {
+  _id: string;
+  name: string;
+  description: string;
+  price: string;
+  image: string;
+}
+
+export default function ProductList() {
+  const [products, setProducts] = useState<Product[]>([]);
+  const [refresh, setRefresh] = useState<boolean>(false);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const data = await getProducts();
+      setProducts(data);
+    };
+    fetchData();
+  }, [refresh]); // Fetch data whenever the refresh state changes
+
+  const handleRefresh = () => {
+    setRefresh((prev) => !prev); // Toggle refresh state to force re-fetch
+  };
 
   return (
     <div className="">
+      <button onClick={handleRefresh}></button>
       <div className="flex flex-row  flex-start flex-wrap m-10 items-start text-start ">
         <div className="carousel ">
-          {data.map((product: any) => (
+          {products.map((product) => (
             <div
               className=" lg:w-[25%] items-start text-start  bg-white  shadow-md shadow-black lg:m-10 justify-center border-black  product-card carousel-item w-full "
               style={{ marginBottom: '10px', marginRight: '10px' }}
