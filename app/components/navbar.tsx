@@ -28,22 +28,22 @@ const Navbar = () => {
         </Link>
         <div className="hidden sm:flex">
           <ul className="hidden sm:flex">
-            <Link href="./offerings">
+            <Link href="/offerings">
               <li className="ml-10 uppercase hover:border-b hover:border-rose-500 text-xl">
                 Offerings
               </li>
             </Link>
-            <Link href="./about">
+            <Link href="/about">
               <li className="ml-10 uppercase hover:border-b hover:border-rose-500 border-red text-xl">
                 About
               </li>
             </Link>
-            <Link href="./policy">
+            <Link href="/policy">
               <li className="ml-10 uppercase hover:border-b hover:border-rose-500 text-xl">
                 Our Policy
               </li>
             </Link>
-            <Link href="./contact">
+            <Link href="/contact">
               <li className="ml-10 uppercase hover:border-b hover:border-rose-500 text-xl">
                 Contact
               </li>
@@ -67,7 +67,7 @@ const Navbar = () => {
           </div>
         </div>
         <ul className="text-2xl mt-[40%] text-black">
-          <Link href="./">
+          <Link href="/">
             <li
               className="py-4 cursor-pointer hover:border-b hover:border-rose-500  "
               onClick={() => setMenuOpen(false)}
@@ -75,7 +75,7 @@ const Navbar = () => {
               Home
             </li>
           </Link>
-          <Link href="./offerings">
+          <Link href="/offerings">
             <li
               className="py-4 cursor-pointer hover:border-b hover:border-rose-500  "
               onClick={() => setMenuOpen(false)}
@@ -83,7 +83,7 @@ const Navbar = () => {
               Offerings
             </li>
           </Link>
-          <Link href="./about">
+          <Link href="/about">
             <li
               className="py-4 cursor-pointer hover:border-b hover:border-rose-500  "
               onClick={() => setMenuOpen(false)}
@@ -91,7 +91,7 @@ const Navbar = () => {
               About
             </li>
           </Link>
-          <Link href="./policy">
+          <Link href="/policy">
             <li
               className="py-4 cursor-pointer hover:border-b hover:border-rose-500  "
               onClick={() => setMenuOpen(false)}
@@ -99,7 +99,7 @@ const Navbar = () => {
               Our Policy
             </li>
           </Link>
-          <Link href="./contact">
+          <Link href="/contact">
             <li
               className="py-4 cursor-pointer hover:border-b hover:border-rose-500  "
               onClick={() => setMenuOpen(false)}

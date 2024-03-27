@@ -111,6 +111,7 @@ body {
 .carousel {
   display: inline-flex;
   overflow-x: scroll;
+
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   -ms-overflow-style: none;

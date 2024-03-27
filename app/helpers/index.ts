@@ -1,17 +1,28 @@
-const getProducts = async () => {
-  const res = await fetch('http://localhost:3000/api/products');
-  if (!res.ok) {
-    throw new Error('Failed to fetch data');
-  }
-  return res.json();
-};
+// const getProducts = async () => {
+//   try {
+//     const res = await fetch('http://localhost:3000/api/products');
+//     if (!res.ok) {
+//       throw new Error('Failed to fetch data');
+//     }
+//     return res.json();
+//   } catch (error) {
+//     console.error(error);
+//     return [];
+//   }
+// };
 
-const getSingleProduct = async (_id: number) => {
-  const item = await getProducts();
+// const getSingleProduct = async (params) => {
+//   try {
+//     const res = await fetch(`http://localhost:3000/api/products/${params}`);
+//     console.log(res);
+//     if (!res.ok) {
+//       throw new Error('Failed to fetch data');
+//     }
+//     return res.json();
+//   } catch (error) {
+//     console.error(error);
+//     return null;
+//   }
+// };
 
-  const singleItem = await item.find((product: any) => product._id === _id);
-
-  return singleItem;
-};
-
-export { getProducts, getSingleProduct };
+// export { getSingleProduct, getProducts };
