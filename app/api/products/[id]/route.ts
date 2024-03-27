@@ -7,7 +7,7 @@ const products: any = [
     description: 'Steel Foldable Chair',
     price: '$4.00',
     details: 'Price is per day (8 hours)',
-    image: 'https://partyservices.s3.us-east-2.amazonaws.com/BlackChair.webp ',
+    image: 'https://partyservices.s3.us-east-2.amazonaws.com/BlackChair.webp',
   },
   {
     id: 2,
