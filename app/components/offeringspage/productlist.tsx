@@ -8,7 +8,7 @@ import Stars from '../../../public/stars.svg';
 
 export default function ProductList() {
   return (
-    <div className="flex flex-row  flex-start flex-wrap m-10 items-start text-start ">
+    <div className="flex flex-row  flex-start flex-wrap m-10 items-center text-start ">
       <div className="carousel ">
         {ProductsData.map((product) => (
           <div

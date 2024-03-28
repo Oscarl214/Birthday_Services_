@@ -15,8 +15,8 @@ const Offerings = () => {
           backgroundPosition: 'center',
         }}
       >
-        <div className="lg:pt-[2%] pt-[10%]">
-          <div className=" m-5">
+        <div className="lg:pt-[2%] pt-[1%]">
+          <div className="">
             {' '}
             <ProductList />
           </div>
