@@ -25,15 +25,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-  
         <Navbar />
-<Template>
-        {children}
+        <Template>
+          {' '}
+          <div className="main-content" style={{ paddingTop: '5rem' }}>
+            {children}
+          </div>
         </Template>
         <div className="mt-[5%]">
           <Footer />
         </div>
-        {/* </MotionDiv> */}
       </body>
     </html>
   );

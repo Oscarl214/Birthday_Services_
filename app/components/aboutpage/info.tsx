@@ -37,7 +37,7 @@ const Info = () => {
         alt="Bounce House"
         width="1000"
         height="300"
-        className="cursor-pointer  lg:m-10 "
+        className="cursor-pointer  lg:m-10 md:max-h-fit"
         priority
       />
     </div>

@@ -23,6 +23,10 @@ body {
   background-color: white;
 }
 
+.main-content {
+  padding-top: 5rem; /* Adjust this value to match the height of your navbar */
+}
+
 .hero {
   display: grid;
   width: 100%;
