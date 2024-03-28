@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 //   hidden: { opacity: 0 },
 //   visible: { opacity: 1 },
 // };
-
+import Template from './template';
 export const metadata: Metadata = {
   title: 'Party Knight Rentals',
   description: 'Party Rental Site',
@@ -25,21 +25,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        {/* <MotionDiv
-          variants={variants}
-          initial="hidden"
-          animate="visible"
-          transition={{
-            delay: 1,
-            ease: 'easeInOut',
-            duration: 1,
-          }}
-          viewport={{ amount: 0.5 }}
-        > */}
+  
         <Navbar />
-
+<Template>
         {children}
-
+        </Template>
         <div className="mt-[5%]">
           <Footer />
         </div>
